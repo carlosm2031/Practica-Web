@@ -1,0 +1,175 @@
+/* GENERALES */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    box-sizing: border-box;
+    background-color: #33383e;
+}
+
+
+/* Container IMG INICIO */
+
+.container-img {
+    width: 50%;
+    height: 100%;
+    float: left;
+
+}
+
+.container-img img {
+    width: 75%;
+    height: 100%;
+    border-radius: 0px 450px 300px 0px;
+}
+
+
+
+/* Container NAME INICIO */
+
+.container-name {
+    position: absolute;
+    color: white;
+    top: 27%;
+    left: 42%;
+    font-size: 30px;
+}
+
+/* Container CONTENT INICIO */
+
+.container-content {
+    width: 50%;
+    height: 100vw;
+    float: right;
+}
+
+/* NAV */
+.nav {
+    margin-top: 40px;
+    text-align: center;
+    height: 80px;
+    padding-top: 20px;
+    line-height: 50px;
+    letter-spacing: 3px;
+}
+
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav ul li {
+    display: inline-block;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    margin: 0px 50px 0px 50px;
+}
+
+.nav ul li a:hover {
+    text-decoration: underline;
+    text-shadow: 0px 0px 5px rgb(157, 157, 157);
+}
+
+
+/* DESCRIPTION */
+
+.texto {
+    margin-top: 400px;
+    padding: 10px;
+    float: left;
+    overflow: hidden;
+    width: 100%;
+}
+.descripcion{
+    float: left;
+    width: 70%;
+}
+.texto h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #408e88;
+    margin-bottom: 35px;
+    font-size: 35px;
+}
+
+.texto p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+
+
+/* Social */
+
+.social {
+    width: 20%;
+    float: right;
+    margin-top: 40px;
+}
+
+.social img {
+    height: 25px;
+    border: 1px solid rgb(88, 88, 88);
+    border-radius: 50%;
+    padding: 12px;
+    display: block;
+    margin-bottom: 20px;
+    transition: all 200ms;
+
+}
+
+.social img:hover {
+    box-shadow: 0px 0px 4px white;
+    background-color: #00e1cf;
+}
+
+
+/* BOTON */
+.botones{
+    margin-top: 700px;
+    width: 210px;
+    height: 1dvi;
+}
+
+.boton{
+    background-color:transparent;
+    line-height:65px ;
+    width: 100%;
+    text-align: center;
+    border: 1px solid rgb(88, 88, 88);
+    color: white;
+    border-radius: 50px;
+    font-size: 25px;
+    transition:all 100ms;
+    cursor: pointer;
+    font-weight: normal;
+    transition: all 200ms;
+}
+
+.boton h4,
+.boton img{
+    display: inline-block;
+}
+
+.boton img{
+    height: 15px;
+}
+
+.boton:hover{
+    box-shadow: 0px 0px 4px white;
+    background-color: #00e1cf;
+}
+

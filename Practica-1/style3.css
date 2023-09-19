@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color:#33383e;
+    overflow: hidden;
+}
+
+/* CONTAINER IMG */
+
+.container-img{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.container-img img{
+    width: 100%;
+    height: 100%;
+}
+
+/* CONTAINER CONTENT */
+.container-content{
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+.descripcion{
+    width: 900px;
+    margin-top: 250px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.descripcion h1{
+    font-size: 45px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.texto{
+    text-align: justify;
+    width: 550px;
+}
+
+.texto h2{
+    color: #408e88;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.texto p{
+    color: #dde4ea;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+
+
+
+/* CONTAINER NAV */
+
+.container-nav{
+    position: absolute;
+    background-color: #555e65;
+    border-radius: 40px;
+    top: 5%;
+    width: 800px;
+    height: 80px;
+    text-align: center;
+    line-height: 45px;
+    left: 29.5%;
+}
+
+
+
+.container-nav ul li{
+    display: inline-block;
+    width: 25%;
+    margin: 15px;
+}
+
+.container-nav ul li a{
+    color: #dde4ea;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.container-nav nav ul li a:hover {
+    text-decoration: underline;
+    text-shadow: 0px 0px 5px rgb(157, 157, 157);
+}
+
+
+/* Social */
+
+.social {
+    width: 100%;
+    margin-top: 100px;
+
+}
+
+.social img {
+    height: 25px;
+    border: 1px solid rgb(88, 88, 88);
+    border-radius: 50%;
+    padding: 12px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    transition: all 200ms;
+    cursor: pointer;
+}
+
+.social img:hover {
+    box-shadow: 0px 0px 4px white;
+    background-color: #00e1cf;
+}
+
+
+/* BOTON */
+.botones{
+    margin-top: 30px;
+    width: 100%;
+    height: 1dvi;
+}
+
+.boton{
+    line-height:65px ;
+    width: 30%;
+    text-align: center;
+    border: 1px solid rgb(88, 88, 88);
+    color: white;
+    border-radius: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    font-weight: normal;
+    transition: all 200ms;
+}
+
+.boton h4,
+.boton img{
+    display: inline-block;
+}
+
+.boton img{
+    height: 15px;
+}
+
+.boton:hover{
+    box-shadow: 0px 0px 4px white;
+    border: 1px solid   #00e1cf;
+}
